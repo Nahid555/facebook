@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1285BD"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/unnamed"
+        android:layout_marginBottom="30dp"
+        android:layout_height="100dp" />
+
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:id="@+id/nameId"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#E6DEDE"
+        android:paddingLeft="20dp"
+        android:hint="User name or Email"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/passwordId"
+        android:paddingLeft="20dp"
+        android:hint="Password"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#E6DEDE"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/loginId"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="#00B0FF"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/creatId"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:text="Create a new Account"
+        android:textStyle="bold"
+        android:background="#1285BD"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
