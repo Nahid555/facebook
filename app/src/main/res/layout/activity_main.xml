@@ -33,7 +33,7 @@
     <EditText
 
         android:id="@+id/passwordId"
-        android:paddingLeft="20dp"
+        android:paddingLeft="21dp"
         android:hint="Password"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
